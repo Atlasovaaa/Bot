@@ -1,0 +1,102 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.m-wrapper{
+	width: 85%;
+	max-width: 1000px;
+	height: 600px;
+	margin: auto;
+}
+
+.m-wrapper>.mouse-nav-panel{
+	position: relative;
+	display: block;
+	height: 20%;
+	width: 100%;
+	/*background-color: yellow;*/
+	box-shadow: 0px 2px 10px 0 silver;
+}
+
+.orbi-font {
+    text-align: center;
+}
+
+.messages-box{
+    position: relative;
+    display: block;
+    height: 75%;
+    overflow-y: scroll;
+    /*background-color: #fafafa;*/
+    background-image: url("images/board.jpg");
+}
+
+.messages-box>ul>li{
+    transition: 0.4s;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 9px 25px;
+    direction: ltr;
+    /*float: right;*/
+}
+
+.messages-box>ul>.my-message{
+    direction: rtl;
+}
+    .messages-box>ul>.my-message>.author-thumb{
+        float: right;
+    }
+    .messages-box>ul>.my-message>.message-contain{
+        background-color: #3c067e;
+        float: right;
+        margin: 0 10px 0 0;
+    }
+    .messages-box>ul>.my-message>.message-contain>.message-txbox>p{
+        color: white;
+        direction: ltr;
+    }
+.messages-box>ul>.bot-message{
+    direction: ltr;
+}
+    .bot-message>.author-thumb, .message-contain{
+        float: left;
+    }
+.message-contain{
+margin: 0 0 0 10px;
+border-radius: 5px;
+max-width: 65%;
+background-color: #f0f4f9;
+}
+.message-contain>.message-txbox{
+padding: 10px;
+}
+.author-thumb{
+overflow: hidden;
+width: 40px;
+height: 40px;
+border-radius: 20px;
+}
+.author-thumb>img{
+width: 40px;
+height: 40px;
+}
+.input-sect {
+    height: 10%;
+    background-color: #f0f4f9;
+    line-height: 10%;
+    padding: 12px 0;
+}
+
+p{
+	font-family: Arial;
+	font-size: 0.9rem;
+	margin-block-start:0px;
+	margin-block-end:0px;
+	color: #84879a;
+}
+
+p{
+	font-family: Arial;
+	font-size: 0.9rem;
+	margin-block-start:0px;
+	margin-block-end:0px;
+	color: #84879a;
+}
